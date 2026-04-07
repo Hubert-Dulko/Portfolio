@@ -87,4 +87,4 @@ Proposed a multi-layered security plan to reduce the attack surface:
 * **Strategic Oversight:** Aligned technical security controls with organizational goals to mitigate legal and financial consequences.
 
 ### 📁 Documentation:
-* [**Full Vulnerability Assessment Report (PDF)**](./Vulnerability-Assessment-Report/Vulnerability_assessment_report.pdf)
+* [**Full Vulnerability Assessment Report (PDF)**](./Vulnerability_Assessment_Report_Hubert_Dulko.pdf)
