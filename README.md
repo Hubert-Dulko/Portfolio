@@ -54,17 +54,17 @@ This portfolio showcases a series of cybersecurity projects completed as part of
 
 ---
 
-## 🐍 Projekt 3: Algorithm for file updates in Python
+## 🐍 Project 3: Algorithm for File Updates in Python
 
-**Opis:** Algorytm w języku Python zaprojektowany do aktualizacji pliku tekstowego z adresami IP pracowników, którzy mają dostęp do zastrzeżonych treści w firmie medycznej. Jako analityk bezpieczeństwa przygotowałem to narzędzie, aby regularnie usuwać adresy IP z listy dozwolonych (allow list).
+**Description:** A Python-based algorithm designed to update a text file containing employee IP addresses authorized to access restricted content in a healthcare company. As a security analyst, I developed this tool to regularly update the "allow list" by programmatically removing IP addresses that no longer require access.
 
-### 🔍 Logika i implementacja:
-* **Inicjalizacja funkcji:** Algorytm definiuje funkcję `update_file`, która przyjmuje dwa parametry: nazwę pliku (`import_file`) oraz listę adresów do usunięcia (`remove_list`).
-* **Bezpieczny odczyt:** Skrypt otwiera plik w trybie odczytu (`"r"`) przy użyciu instrukcji `with`, co gwarantuje automatyczne zamknięcie pliku.
-* **Przetwarzanie danych:** Zawartość pliku jest konwertowana na ciąg znaków metodą `.read()`, a następnie dzielona na listę metodą `.split()`, aby umożliwić edycję poszczególnych elementów.
-* **Iteracja i weryfikacja:** Pętla `for` przechodzi przez listę adresów, a instrukcja `if` sprawdza, czy dany adres znajduje się na liście adresów do usunięcia.
-* **Aktualizacja zasobów:** Po usunięciu wybranych adresów metodą `.remove()`, lista jest łączona z powrotem w ciąg znaków metodą `.join()` i zapisywana do pliku w trybie zapisu (`"w"`).
+### 🔍 Logic and Implementation:
+* **Function Initialization:** The algorithm defines the `update_file` function, which accepts two parameters: the filename (`import_file`) and a list of addresses to be removed (`remove_list`).
+* **Secure File Handling:** The script opens the file in read mode (`"r"`) using the `with` statement, ensuring the file is automatically and securely closed after processing.
+* **Data Processing:** File content is converted into a string using the `.read()` method and then parsed into a list via `.split()` to enable manipulation of individual elements.
+* **Iteration and Verification:** A `for` loop iterates through the IP address list, while an `if` statement checks if each address is present in the removal list.
+* **Resource Update:** After removing the specified addresses using the `.remove()` method, the list is converted back into a string using `.join()` and written to the file in write mode (`"w"`).
 
-### 📁 Dokumentacja i Kod:
-* [**Przejdź do folderu projektu (Kod + Opis)**](Python-IP-Allow-List-Update)
-* [**Pełny raport techniczny (PDF)**](Python-IP-Allow-List-Update/Algorithm_for_file_updates_in_Python.pdf)
+### 📁 Documentation and Code:
+* [**View Project Folder (Code & README)**](./Python-IP-Allow-List-Update/)
+* [**Full Technical Report (PDF)**](./Python-IP-Allow-List-Update/Algorithm_for_file_updates_in_Python.pdf)
